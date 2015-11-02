@@ -10,6 +10,7 @@
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
     
+	<!--
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
@@ -23,6 +24,20 @@
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="com.simplec.plugins.localnotification" />
+	-->
+	
+	<gap:plugin name="cordova-plugin-device" source="npm" />
+    <gap:plugin name="cordova-plugin-camera" source="npm"/>
+    <gap:plugin name="cordova-plugin-media-capture" source="npm" />
+    <gap:plugin name="cordova-plugin-file" source="npm"/>
+    <gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
+    <gap:plugin name="cordova-plugin-contacts" source="npm"/>
+    <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+    <gap:plugin name="cordova-plugin-dialogs" source="npm"/>
+    <gap:plugin name="cordova-plugin-vibration" source="npm"/>
+    <gap:plugin name="cordova-plugin-network-information" source="npm"/>
 
 	<icon src="icon.png" />
 	
